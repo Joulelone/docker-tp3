@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Étape 1 : NGINX (HTTP) + PHP-FPM (SCRIPT) sans Docker Compose
-# À exécuter depuis le dossier etape1 :  ./launch.sh
-
 NET_NAME="tp3net"
 PHP_NAME="script"
 NGX_NAME="http"
